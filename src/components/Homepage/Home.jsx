@@ -1,4 +1,5 @@
 import React from 'react'
+import checkIcon from '../../assets/check.png'
 
 const Home = () => {
     return (
@@ -73,31 +74,31 @@ const Home = () => {
 
                      <div className='grid grid-cols-2'>
 
-                        <div>
-                            <div className='text-grey-400 text-lg px-10 pt-15'>
-                            Modern Teams need Speed to stay ahead in this fast-paced world. Our AI-powered solutions help startups, businesses and product teams develop their projects 5X faster, smarter and leaner by accelerating MVP and product development cycles.
-                            </div>
-                            <div className='flex items-center gap-2 px-10 mt-14 font-bold'>
-                                <img src="src/assets/check.png" alt="check" srcset="" className='h-6 w-auto' />
-                                5X Faster Product Iterations
-                            </div>
-                            <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
-                                <img src="src/assets/check.png" alt="check" srcset="" className='h-6 w-auto' />
-                                80% Reduction in Dev Workload
-                            </div>
-                            <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
-                                <img src="src/assets/check.png" alt="check" srcset="" className='h-6 w-auto' />
-                                Human-AI Collaboration = Better Ideas, Better Code
-                            </div>
-                            <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
-                                <img src="src/assets/check.png" alt="check" srcset="" className='h-6 w-auto' />
-                                Enterprise-grade Scalability & Security
-                            </div>
-                            <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
-                                <img src="src/assets/check.png" alt="check" srcset="" className='h-6 w-auto' />
-                                Cross-Platform: Web, Mobile, API-first Apps
-                            </div>
-                        </div>
+                                                 <div>
+                             <div className='text-gray-400 text-lg px-10 pt-16'>
+                             Modern Teams need Speed to stay ahead in this fast-paced world. Our AI-powered solutions help startups, businesses and product teams develop their projects 5X faster, smarter and leaner by accelerating MVP and product development cycles.
+                             </div>
+                             <div className='flex items-center gap-2 px-10 mt-14 font-bold'>
+                                 <img src={checkIcon} alt="check" className='h-6 w-auto' />
+                                 5X Faster Product Iterations
+                             </div>
+                             <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
+                                 <img src={checkIcon} alt="check" className='h-6 w-auto' />
+                                 80% Reduction in Dev Workload
+                             </div>
+                             <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
+                                 <img src={checkIcon} alt="check" className='h-6 w-auto' />
+                                 Human-AI Collaboration = Better Ideas, Better Code
+                             </div>
+                             <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
+                                 <img src={checkIcon} alt="check" className='h-6 w-auto' />
+                                 Enterprise-grade Scalability & Security
+                             </div>
+                             <div className='flex items-center gap-2 px-10 mt-2 font-bold'>
+                                 <img src={checkIcon} alt="check" className='h-6 w-auto' />
+                                 Cross-Platform: Web, Mobile, API-first Apps
+                             </div>
+                         </div>
 
                      </div>
                     </div>
