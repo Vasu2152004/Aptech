@@ -9,6 +9,7 @@ import Aboutus from './components/AboutUs/Aboutus.jsx'
 import ContactUs from './components/ContactUs/ContactUs.jsx'
 import Portfolio from './components/PortFolio/Portfolio.jsx'
 import Service from './components/Services/Service.jsx'
+import Fullstack from './components/Services/Fullstack.jsx'
 import Home from './components/Homepage/Home.jsx'
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/service',
         element: <Service />,
+      },
+      {
+        path: '/service/fullstack',
+        element: <Fullstack />,
       }
     ]
   }

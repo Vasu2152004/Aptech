@@ -28,3 +28,28 @@
   white-space: nowrap;
   animation: typewriter 2s steps(40, end);
 }
+
+/* Card Carousel Styles */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollbar-hide::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+/* Smooth scrolling for cards */
+.snap-x {
+  scroll-behavior: smooth;
+}
+
+/* Scroll-Based Marquee Styles */
+.tape-right {
+  transform: translateX(-100%) rotate(12deg);
+  transition: transform 0.1s ease-out;
+}
+
+.tape-left {
+  transform: translateX(100%) rotate(-12deg);
+  transition: transform 0.1s ease-out;
+}
